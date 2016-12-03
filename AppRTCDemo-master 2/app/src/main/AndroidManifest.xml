@@ -66,6 +66,15 @@
         android:theme="@style/CallActivityTheme"
         >
     </activity>
+
+    <activity
+        android:name="CalldualActivity"
+        android:label="@string/app_name"
+        android:screenOrientation="fullUser"
+        android:configChanges="orientation|screenSize"
+        android:theme="@style/CallActivityTheme"
+        >
+    </activity>
   </application>
 
 </manifest>
