@@ -1,3 +1,10 @@
+After adding 'go to videochat' button to UserActivity, the application crushed when we click it. 
+It says in the log:
+java.lang.IllegalStateException: Could not find method go_video(View) in a parent or ancestor Context for android:onClick attribute defined on view class android.support.v7.widget.AppCompatButton with id 'go_vediochat'
+
+However we do add the method "go_video()".
+
+
 Introduction
 ============
 This sample app will showcase using Cognito Your User Pools with the AWS Mobile SDK for Android. The sample has been updated to support the features introduced in GA.
