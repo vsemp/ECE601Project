@@ -66,6 +66,7 @@
         android:theme="@style/CallActivityTheme"
         >
     </activity>
+<<<<<<< HEAD
 
     <activity
         android:name="CalldualActivity"
@@ -75,6 +76,8 @@
         android:theme="@style/CallActivityTheme"
         >
     </activity>
+=======
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
   </application>
 
 </manifest>

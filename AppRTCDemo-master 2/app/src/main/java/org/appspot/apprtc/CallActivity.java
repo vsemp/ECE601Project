@@ -10,12 +10,24 @@
 
 package org.appspot.apprtc;
 
+<<<<<<< HEAD
+=======
+import org.appspot.apprtc.AppRTCClient.RoomConnectionParameters;
+import org.appspot.apprtc.AppRTCClient.SignalingParameters;
+import org.appspot.apprtc.PeerConnectionClient.PeerConnectionParameters;
+import org.appspot.apprtc.util.LooperExecutor;
+
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+<<<<<<< HEAD
+=======
+import android.graphics.Camera;
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -24,11 +36,16 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager.LayoutParams;
 import android.widget.Toast;
+<<<<<<< HEAD
 
 import org.appspot.apprtc.AppRTCClient.RoomConnectionParameters;
 import org.appspot.apprtc.AppRTCClient.SignalingParameters;
 import org.appspot.apprtc.PeerConnectionClient.PeerConnectionParameters;
 import org.appspot.apprtc.util.LooperExecutor;
+=======
+import android.hardware.camera2.*;
+
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
 import org.webrtc.Camera2Enumerator;
 import org.webrtc.EglBase;
 import org.webrtc.IceCandidate;
@@ -43,6 +60,7 @@ import org.webrtc.SurfaceViewRenderer;
  * and call view.
  */
 public class CallActivity extends Activity
+<<<<<<< HEAD
         implements AppRTCClient.SignalingEvents,
         PeerConnectionClient.PeerConnectionEvents,
         CallFragment.OnCallEvents {
@@ -96,13 +114,74 @@ public class CallActivity extends Activity
           "org.appspot.apprtc.CMDLINE";
   public static final String EXTRA_RUNTIME =
           "org.appspot.apprtc.RUNTIME";
+=======
+    implements AppRTCClient.SignalingEvents,
+      PeerConnectionClient.PeerConnectionEvents,
+      CallFragment.OnCallEvents {
+
+  public static final String EXTRA_ROOMID =
+      "org.appspot.apprtc.ROOMID";
+  public static final String EXTRA_LOOPBACK =
+      "org.appspot.apprtc.LOOPBACK";
+  public static final String EXTRA_VIDEO_CALL =
+      "org.appspot.apprtc.VIDEO_CALL";
+  public static final String EXTRA_CAMERA2 =
+      "org.appspot.apprtc.CAMERA2";
+  public static final String EXTRA_VIDEO_WIDTH =
+      "org.appspot.apprtc.VIDEO_WIDTH";
+  public static final String EXTRA_VIDEO_HEIGHT =
+      "org.appspot.apprtc.VIDEO_HEIGHT";
+  public static final String EXTRA_VIDEO_FPS =
+      "org.appspot.apprtc.VIDEO_FPS";
+  public static final String EXTRA_VIDEO_CAPTUREQUALITYSLIDER_ENABLED =
+      "org.appsopt.apprtc.VIDEO_CAPTUREQUALITYSLIDER";
+  public static final String EXTRA_VIDEO_BITRATE =
+      "org.appspot.apprtc.VIDEO_BITRATE";
+  public static final String EXTRA_VIDEOCODEC =
+      "org.appspot.apprtc.VIDEOCODEC";
+  public static final String EXTRA_HWCODEC_ENABLED =
+      "org.appspot.apprtc.HWCODEC";
+  public static final String EXTRA_CAPTURETOTEXTURE_ENABLED =
+      "org.appspot.apprtc.CAPTURETOTEXTURE";
+  public static final String EXTRA_AUDIO_BITRATE =
+      "org.appspot.apprtc.AUDIO_BITRATE";
+  public static final String EXTRA_AUDIOCODEC =
+      "org.appspot.apprtc.AUDIOCODEC";
+  public static final String EXTRA_NOAUDIOPROCESSING_ENABLED =
+      "org.appspot.apprtc.NOAUDIOPROCESSING";
+  public static final String EXTRA_AECDUMP_ENABLED =
+      "org.appspot.apprtc.AECDUMP";
+  public static final String EXTRA_OPENSLES_ENABLED =
+      "org.appspot.apprtc.OPENSLES";
+  public static final String EXTRA_DISABLE_BUILT_IN_AEC =
+      "org.appspot.apprtc.DISABLE_BUILT_IN_AEC";
+  public static final String EXTRA_DISABLE_BUILT_IN_AGC =
+      "org.appspot.apprtc.DISABLE_BUILT_IN_AGC";
+  public static final String EXTRA_DISABLE_BUILT_IN_NS =
+      "org.appspot.apprtc.DISABLE_BUILT_IN_NS";
+    public static final String EXTRA_ENABLE_LEVEL_CONTROL =
+      "org.appspot.apprtc.ENABLE_LEVEL_CONTROL";
+  public static final String EXTRA_DISPLAY_HUD =
+      "org.appspot.apprtc.DISPLAY_HUD";
+  public static final String EXTRA_TRACING = "org.appspot.apprtc.TRACING";
+  public static final String EXTRA_CMDLINE =
+      "org.appspot.apprtc.CMDLINE";
+  public static final String EXTRA_RUNTIME =
+      "org.appspot.apprtc.RUNTIME";
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
   private static final String TAG = "CallRTCClient";
 
   // List of mandatory application permissions.
   private static final String[] MANDATORY_PERMISSIONS = {
+<<<<<<< HEAD
           "android.permission.MODIFY_AUDIO_SETTINGS",
           "android.permission.RECORD_AUDIO",
           "android.permission.INTERNET"
+=======
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.INTERNET"
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
   };
 
   // Peer connection statistics callback period in ms.
@@ -124,11 +203,16 @@ public class CallActivity extends Activity
   // Remote video screen position
   private static final int REMOTE_X = 0;
   private static final int REMOTE_Y = 0;
+<<<<<<< HEAD
   private static final int REMOTE_Y2 = 50;
   private static final int REMOTE_WIDTH = 100;
   private static final int REMOTE_WIDTH2 = 100;
   private static final int REMOTE_HEIGHT = 50;
   private static final int REMOTE_HEIGHT2 = 50;
+=======
+  private static final int REMOTE_WIDTH = 100;
+  private static final int REMOTE_HEIGHT = 100;
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
   private PeerConnectionClient peerConnectionClient = null;
   private AppRTCClient appRtcClient;
   private SignalingParameters signalingParameters;
@@ -137,12 +221,18 @@ public class CallActivity extends Activity
   private SurfaceViewRenderer localRender;
   private SurfaceViewRenderer localRender2;
   private SurfaceViewRenderer remoteRender;
+<<<<<<< HEAD
   private SurfaceViewRenderer remoteRender2;
+=======
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
   private PercentFrameLayout localRenderLayout;
   private PercentFrameLayout localRenderLayout2;
 
   private PercentFrameLayout remoteRenderLayout;
+<<<<<<< HEAD
   private PercentFrameLayout remoteRenderLayout2;
+=======
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
   private ScalingType scalingType;
   private Toast logToast;
   private boolean commandLineRun;
@@ -165,12 +255,17 @@ public class CallActivity extends Activity
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     Thread.setDefaultUncaughtExceptionHandler(
+<<<<<<< HEAD
             new UnhandledExceptionHandler(this));
+=======
+        new UnhandledExceptionHandler(this));
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
 
     // Set window styles for fullscreen-window size. Needs to be done before
     // adding content.
     requestWindowFeature(Window.FEATURE_NO_TITLE);
     getWindow().addFlags(
+<<<<<<< HEAD
             LayoutParams.FLAG_FULLSCREEN
                     | LayoutParams.FLAG_KEEP_SCREEN_ON
                     | LayoutParams.FLAG_DISMISS_KEYGUARD
@@ -181,6 +276,18 @@ public class CallActivity extends Activity
                     | View.SYSTEM_UI_FLAG_FULLSCREEN
                     | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
     setContentView(R.layout.activity_calldual);
+=======
+        LayoutParams.FLAG_FULLSCREEN
+        | LayoutParams.FLAG_KEEP_SCREEN_ON
+        | LayoutParams.FLAG_DISMISS_KEYGUARD
+        | LayoutParams.FLAG_SHOW_WHEN_LOCKED
+        | LayoutParams.FLAG_TURN_SCREEN_ON);
+    getWindow().getDecorView().setSystemUiVisibility(
+        View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+        | View.SYSTEM_UI_FLAG_FULLSCREEN
+        | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+    setContentView(R.layout.activity_call);
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
 
     iceConnected = false;
     signalingParameters = null;
@@ -188,6 +295,7 @@ public class CallActivity extends Activity
 
     // Create UI controls.
     localRender = (SurfaceViewRenderer) findViewById(R.id.local_video_view);
+<<<<<<< HEAD
     //localRender2 = (SurfaceViewRenderer) findViewById(R.id.local_video_view2);
     remoteRender = (SurfaceViewRenderer) findViewById(R.id.remote_video_view);
     //remoteRender2 = (SurfaceViewRenderer) findViewById(R.id.remote_video_view2);
@@ -195,6 +303,13 @@ public class CallActivity extends Activity
     //localRenderLayout2 = (PercentFrameLayout) findViewById(R.id.local_video_layout2);
     remoteRenderLayout = (PercentFrameLayout) findViewById(R.id.remote_video_layout);
     //remoteRenderLayout2 = (PercentFrameLayout) findViewById(R.id.remote_video_layout2);
+=======
+    localRender2 = (SurfaceViewRenderer) findViewById(R.id.local_video_view2);
+    remoteRender = (SurfaceViewRenderer) findViewById(R.id.remote_video_view);
+    localRenderLayout = (PercentFrameLayout) findViewById(R.id.local_video_layout);
+    localRenderLayout2 = (PercentFrameLayout) findViewById(R.id.local_video_layout2);
+    remoteRenderLayout = (PercentFrameLayout) findViewById(R.id.remote_video_layout);
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
     callFragment = new CallFragment();
     hudFragment = new HudFragment();
 
@@ -207,18 +322,30 @@ public class CallActivity extends Activity
     };
 
     localRender.setOnClickListener(listener);
+<<<<<<< HEAD
     //localRender2.setOnClickListener(listener);
     remoteRender.setOnClickListener(listener);
     //remoteRender2.setOnClickListener(listener);
+=======
+    localRender2.setOnClickListener(listener);
+    remoteRender.setOnClickListener(listener);
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
 
     // Create video renderers.
     rootEglBase = EglBase.create();
     localRender.init(rootEglBase.getEglBaseContext(), null);
+<<<<<<< HEAD
     //localRender2.init(rootEglBase.getEglBaseContext(),null);
     remoteRender.init(rootEglBase.getEglBaseContext(), null);
     //remoteRender2.init(rootEglBase.getEglBaseContext(), null);
     localRender.setZOrderMediaOverlay(true);
     //localRender2.setZOrderMediaOverlay(true);
+=======
+    localRender2.init(rootEglBase.getEglBaseContext(),null);
+    remoteRender.init(rootEglBase.getEglBaseContext(), null);
+    localRender.setZOrderMediaOverlay(true);
+    localRender2.setZOrderMediaOverlay(true);
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
     updateVideoView();
 
     // Check for mandatory permissions.
@@ -254,6 +381,7 @@ public class CallActivity extends Activity
     boolean tracing = intent.getBooleanExtra(EXTRA_TRACING, false);
 
     boolean useCamera2 = Camera2Enumerator.isSupported()
+<<<<<<< HEAD
             && intent.getBooleanExtra(EXTRA_CAMERA2, true);
 
     peerConnectionParameters = new PeerConnectionParameters(
@@ -277,6 +405,31 @@ public class CallActivity extends Activity
             intent.getBooleanExtra(EXTRA_DISABLE_BUILT_IN_AGC, false),
             intent.getBooleanExtra(EXTRA_DISABLE_BUILT_IN_NS, false),
             intent.getBooleanExtra(EXTRA_ENABLE_LEVEL_CONTROL, false));
+=======
+        && intent.getBooleanExtra(EXTRA_CAMERA2, true);
+
+    peerConnectionParameters = new PeerConnectionParameters(
+        intent.getBooleanExtra(EXTRA_VIDEO_CALL, true),
+        loopback,
+        tracing,
+        useCamera2,
+        intent.getIntExtra(EXTRA_VIDEO_WIDTH, 0),
+        intent.getIntExtra(EXTRA_VIDEO_HEIGHT, 0),
+        intent.getIntExtra(EXTRA_VIDEO_FPS, 0),
+        intent.getIntExtra(EXTRA_VIDEO_BITRATE, 0),
+        intent.getStringExtra(EXTRA_VIDEOCODEC),
+        intent.getBooleanExtra(EXTRA_HWCODEC_ENABLED, true),
+        intent.getBooleanExtra(EXTRA_CAPTURETOTEXTURE_ENABLED, false),
+        intent.getIntExtra(EXTRA_AUDIO_BITRATE, 0),
+        intent.getStringExtra(EXTRA_AUDIOCODEC),
+        intent.getBooleanExtra(EXTRA_NOAUDIOPROCESSING_ENABLED, false),
+        intent.getBooleanExtra(EXTRA_AECDUMP_ENABLED, false),
+        intent.getBooleanExtra(EXTRA_OPENSLES_ENABLED, false),
+        intent.getBooleanExtra(EXTRA_DISABLE_BUILT_IN_AEC, false),
+        intent.getBooleanExtra(EXTRA_DISABLE_BUILT_IN_AGC, false),
+        intent.getBooleanExtra(EXTRA_DISABLE_BUILT_IN_NS, false),
+        intent.getBooleanExtra(EXTRA_ENABLE_LEVEL_CONTROL, false));
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
     commandLineRun = intent.getBooleanExtra(EXTRA_CMDLINE, false);
     runTimeMs = intent.getIntExtra(EXTRA_RUNTIME, 0);
 
@@ -290,7 +443,11 @@ public class CallActivity extends Activity
     }
     // Create connection parameters.
     roomConnectionParameters = new RoomConnectionParameters(
+<<<<<<< HEAD
             roomUri.toString(), roomId, loopback);
+=======
+        roomUri.toString(), roomId, loopback);
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
 
     // Create CPU monitor
     cpuMonitor = new CpuMonitor(this);
@@ -323,7 +480,11 @@ public class CallActivity extends Activity
       peerConnectionClient.setPeerConnectionFactoryOptions(options);
     }
     peerConnectionClient.createPeerConnectionFactory(
+<<<<<<< HEAD
             CallActivity.this, peerConnectionParameters, CallActivity.this);
+=======
+        CallActivity.this, peerConnectionParameters, CallActivity.this);
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
   }
 
   // Activity interfaces
@@ -375,10 +536,15 @@ public class CallActivity extends Activity
   public void onCameraDual() {
     if (peerConnectionClient != null) {
       peerConnectionClient.createPeerConnection(rootEglBase.getEglBaseContext(),
+<<<<<<< HEAD
               localRender, remoteRender, signalingParameters);
       //peerConnectionClient.createPeerConnection(rootEglBase.getEglBaseContext(),
       //        localRender2,remoteRender2,signalingParameters);
     }
+=======
+              localRender2, remoteRender, signalingParameters);
+          }
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
   }
 
   @Override
@@ -427,6 +593,7 @@ public class CallActivity extends Activity
     remoteRender.setScalingType(scalingType);
     remoteRender.setMirror(false);
 
+<<<<<<< HEAD
     //remoteRenderLayout2.setPosition(REMOTE_X,REMOTE_Y2,REMOTE_WIDTH2,REMOTE_HEIGHT2);
     //remoteRender2.setScalingType(scalingType);
     //remoteRender2.setMirror(false);
@@ -443,6 +610,20 @@ public class CallActivity extends Activity
     } else {
       localRenderLayout.setPosition(
               LOCAL_X_CONNECTING, LOCAL_Y_CONNECTING, LOCAL_WIDTH_CONNECTING, LOCAL_HEIGHT_CONNECTING);
+=======
+    if (iceConnected) {
+      localRenderLayout.setPosition(
+          LOCAL_X_CONNECTED, LOCAL_Y_CONNECTED, LOCAL_WIDTH_CONNECTED, LOCAL_HEIGHT_CONNECTED);
+      localRender.setScalingType(ScalingType.SCALE_ASPECT_FIT);
+      //newconnected view
+      localRenderLayout2.setPosition(
+          LOCAL_X_CONNECTED2, LOCAL_Y_CONNECTED2, LOCAL_WIDTH_CONNECTED2, LOCAL_HEIGHT_CONNECTED2);
+      localRender2.setScalingType(ScalingType.SCALE_ASPECT_FIT);
+
+    } else {
+      localRenderLayout.setPosition(
+          LOCAL_X_CONNECTING, LOCAL_Y_CONNECTING, LOCAL_WIDTH_CONNECTING, LOCAL_HEIGHT_CONNECTING);
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
       localRender.setScalingType(scalingType);
       //localRenderLayout2.setPosition(
       //        LOCAL_X_CONNECTING, LOCAL_Y_CONNECTING, LOCAL_WIDTH_CONNECTING, LOCAL_HEIGHT_CONNECTING);
@@ -454,7 +635,10 @@ public class CallActivity extends Activity
     localRender.requestLayout();
     //localRender2.requestLayout();
     remoteRender.requestLayout();
+<<<<<<< HEAD
     //remoteRender2.requestLayout();
+=======
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
   }
 
   private void startCall() {
@@ -466,12 +650,17 @@ public class CallActivity extends Activity
 
     // Start room connection.
     logAndToast(getString(R.string.connecting_to,
+<<<<<<< HEAD
             roomConnectionParameters.roomUrl));
+=======
+        roomConnectionParameters.roomUrl));
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
     appRtcClient.connectToRoom(roomConnectionParameters);
 
     // Create and audio manager that will take care of audio routing,
     // audio modes, audio device enumeration etc.
     audioManager = AppRTCAudioManager.create(this, new Runnable() {
+<<<<<<< HEAD
               // This method will be called each time the audio state (number and
               // type of devices) has been changed.
               @Override
@@ -479,6 +668,15 @@ public class CallActivity extends Activity
                 onAudioManagerChangedState();
               }
             }
+=======
+        // This method will be called each time the audio state (number and
+        // type of devices) has been changed.
+        @Override
+        public void run() {
+          onAudioManagerChangedState();
+        }
+      }
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
     );
     // Store existing audio settings and change audio mode to
     // MODE_IN_COMMUNICATION for best possible VoIP performance.
@@ -528,10 +726,13 @@ public class CallActivity extends Activity
       remoteRender.release();
       remoteRender = null;
     }
+<<<<<<< HEAD
     //if(remoteRender2 !=null){
     //  remoteRender2.release();
     //  remoteRender2 = null;
     //}
+=======
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
     if (audioManager != null) {
       audioManager.close();
       audioManager = null;
@@ -550,6 +751,7 @@ public class CallActivity extends Activity
       disconnect();
     } else {
       new AlertDialog.Builder(this)
+<<<<<<< HEAD
               .setTitle(getText(R.string.channel_error_title))
               .setMessage(errorMessage)
               .setCancelable(false)
@@ -560,6 +762,18 @@ public class CallActivity extends Activity
                   disconnect();
                 }
               }).create().show();
+=======
+          .setTitle(getText(R.string.channel_error_title))
+          .setMessage(errorMessage)
+          .setCancelable(false)
+          .setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int id) {
+              dialog.cancel();
+              disconnect();
+            }
+          }).create().show();
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
     }
   }
 
@@ -594,9 +808,13 @@ public class CallActivity extends Activity
     signalingParameters = params;
     logAndToast("Creating peer connection, delay=" + delta + "ms");
     peerConnectionClient.createPeerConnection(rootEglBase.getEglBaseContext(),
+<<<<<<< HEAD
             localRender, remoteRender, signalingParameters);
     //peerConnectionClient.createPeerConnection(rootEglBase.getEglBaseContext(),
     //        localRender2, remoteRender2, signalingParameters);
+=======
+        localRender, remoteRender, signalingParameters);
+>>>>>>> 4a7eaf1f7ac1b931d0e1f323f22aa6bc9eef399c
     //peerConnectionClient.createPeerConnection(rootEglBase.getEglBaseContext(),
     //        localRender2, remoteRender, signalingParameters);
     if (signalingParameters.initiator) {
