@@ -1,4 +1,4 @@
-After adding 'go to videochat' button to UserActivity, the application crushed when we click it. 
+After adding 'go to videochat' button to UserActivity, the application crashed when we click it. 
 It says in the log:
 java.lang.IllegalStateException: Could not find method go_video(View) in a parent or ancestor Context for android:onClick attribute defined on view class android.support.v7.widget.AppCompatButton with id 'go_vediochat'
 
