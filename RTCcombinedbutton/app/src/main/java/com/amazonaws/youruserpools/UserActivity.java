@@ -185,7 +185,7 @@ public class UserActivity extends AppCompatActivity {
     //Button go_videochat = (Button) findViewById(R.id.go_vediochat);
 
     //go_videochat.setOnClickListener(new View.OnClickListener(){
-        public void go_video() {
+        public void go_video(View view) {
             Intent intent = new Intent(this, ConnectActivity.class);
             startActivity(intent);
         }
