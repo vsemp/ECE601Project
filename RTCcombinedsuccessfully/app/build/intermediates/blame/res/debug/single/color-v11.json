@@ -24,6 +24,14 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },

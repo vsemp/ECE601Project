@@ -28,12 +28,12 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/cognito.png",
-        "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/src/main/res/mipmap-mdpi/cognito.png"
-    },
-    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/cognito.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/src/main/res/mipmap-mdpi/cognito.png"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcompleted/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_visibility_black.png",
@@ -52,6 +52,10 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/src/main/res/mipmap-mdpi/cognito.png"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_visibility_black.png",
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/src/main/res/mipmap-mdpi/ic_visibility_black.png"
     },
@@ -60,12 +64,20 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/cognito.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/src/main/res/mipmap-mdpi/cognito.png"
+    },
+    {
         "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_visibility_off_black.png",
         "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/src/main/res/mipmap-mdpi/ic_visibility_off_black.png"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_visibility_black.png",
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/src/main/res/mipmap-mdpi/ic_visibility_black.png"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_visibility_off_black.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/src/main/res/mipmap-mdpi/ic_visibility_off_black.png"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_visibility_off_black.png",
@@ -86,6 +98,10 @@
     {
         "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_visibility_black.png",
         "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/src/main/res/mipmap-mdpi/ic_visibility_black.png"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_visibility_black.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/src/main/res/mipmap-mdpi/ic_visibility_black.png"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcompleted/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",

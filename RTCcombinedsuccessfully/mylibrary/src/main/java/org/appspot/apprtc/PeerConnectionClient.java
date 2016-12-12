@@ -10,13 +10,12 @@
 
 package org.appspot.apprtc;
 
-import org.appspot.apprtc.AppRTCClient.SignalingParameters;
-
 import android.content.Context;
 import android.os.Environment;
 import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
+import org.appspot.apprtc.AppRTCClient.SignalingParameters;
 import org.webrtc.AudioSource;
 import org.webrtc.AudioTrack;
 import org.webrtc.Camera1Enumerator;
@@ -29,7 +28,6 @@ import org.webrtc.EglBase;
 import org.webrtc.IceCandidate;
 import org.webrtc.Logging;
 import org.webrtc.MediaConstraints;
-import org.webrtc.MediaConstraints.KeyValuePair;
 import org.webrtc.MediaStream;
 import org.webrtc.PeerConnection;
 import org.webrtc.PeerConnection.IceConnectionState;
@@ -114,6 +112,7 @@ public class PeerConnectionClient {
   private VideoRenderer.Callbacks localRender;
   private VideoRenderer.Callbacks localRender2;
   private VideoRenderer.Callbacks remoteRender;
+  private VideoRenderer.Callbacks remoteRender2;
   private SignalingParameters signalingParameters;
   private MediaConstraints pcConstraints;
   private int videoWidth;
@@ -299,6 +298,7 @@ public class PeerConnectionClient {
           final VideoRenderer.Callbacks localRender,
           final VideoRenderer.Callbacks localRender2,
           final VideoRenderer.Callbacks remoteRender,
+          final VideoRenderer.Callbacks remoteRender2,
           final SignalingParameters signalingParameters) {
     if (peerConnectionParameters == null) {
       Log.e(TAG, "Creating peer connection without initializing factory.");
@@ -307,6 +307,7 @@ public class PeerConnectionClient {
     this.localRender = localRender;
     this.localRender2 = localRender2;
     this.remoteRender = remoteRender;
+    this.remoteRender2 = remoteRender2;
     this.signalingParameters = signalingParameters;
     executor.execute(new Runnable() {
       @Override
@@ -1134,6 +1135,7 @@ public class PeerConnectionClient {
             remoteVideoTrack = stream.videoTracks.get(0);
             remoteVideoTrack.setEnabled(renderVideo);
             remoteVideoTrack.addRenderer(new VideoRenderer(remoteRender));
+            remoteVideoTrack.addRenderer(new VideoRenderer(remoteRender2));
           }
         }
       });

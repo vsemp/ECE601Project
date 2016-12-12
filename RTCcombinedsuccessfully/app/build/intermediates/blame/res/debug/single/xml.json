@@ -20,6 +20,10 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/exploded-aar/RTCcombinedbutton/mylibrary/unspecified/res/xml/preferences.xml"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/RTCcombinedsuccessfully/mylibrary/unspecified/res/xml/preferences.xml"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/xml/preferences.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/RTCcombinedbutton/mylibrary/unspecified/res/xml/preferences.xml"
     }

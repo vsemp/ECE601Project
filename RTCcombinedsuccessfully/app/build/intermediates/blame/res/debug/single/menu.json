@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/menu/activity_user_drawer.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/src/main/res/menu/activity_user_drawer.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/menu/activity_user_drawer.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/src/main/res/menu/activity_user_drawer.xml"
     },
@@ -16,12 +24,20 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/src/main/res/menu/activity_user_menu.xml"
     },
     {
-        "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
-        "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/src/main/res/menu/activity_main_drawer.xml"
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/menu/activity_user_menu.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/src/main/res/menu/activity_user_menu.xml"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/menu/activity_user_drawer.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/src/main/res/menu/activity_user_drawer.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/menu/connect_menu.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/RTCcombinedsuccessfully/mylibrary/unspecified/res/menu/connect_menu.xml"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/menu/activity_user_drawer.xml",

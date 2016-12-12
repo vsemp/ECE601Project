@@ -32,6 +32,10 @@
         "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_light.xml"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_light.xml"
     },
@@ -52,6 +56,14 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_dark.xml"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_dark.xml"
     },
@@ -70,6 +82,10 @@
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/color/common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcompleted/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
@@ -100,6 +116,10 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_dark.xml"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_dark.xml"
+    },
+    {
         "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
         "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_dark.xml"
     },
@@ -114,6 +134,10 @@
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
@@ -144,6 +168,10 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_light.xml"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_dark.xml"
     },
@@ -156,6 +184,10 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_dark.xml"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
@@ -166,6 +198,10 @@
     {
         "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
         "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
@@ -182,6 +218,10 @@
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
@@ -206,6 +246,10 @@
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
@@ -240,8 +284,16 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_search_url_text.xml"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
@@ -272,6 +324,10 @@
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcompleted/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
         "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
@@ -294,6 +350,10 @@
     {
         "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
         "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/ECE601Project/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",

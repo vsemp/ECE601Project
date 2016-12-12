@@ -10,18 +10,12 @@
 
 package org.appspot.apprtc;
 
-import org.appspot.apprtc.AppRTCClient.RoomConnectionParameters;
-import org.appspot.apprtc.AppRTCClient.SignalingParameters;
-import org.appspot.apprtc.PeerConnectionClient.PeerConnectionParameters;
-import org.appspot.apprtc.util.LooperExecutor;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Camera;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -30,8 +24,11 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager.LayoutParams;
 import android.widget.Toast;
-import android.hardware.camera2.*;
 
+import org.appspot.apprtc.AppRTCClient.RoomConnectionParameters;
+import org.appspot.apprtc.AppRTCClient.SignalingParameters;
+import org.appspot.apprtc.PeerConnectionClient.PeerConnectionParameters;
+import org.appspot.apprtc.util.LooperExecutor;
 import org.webrtc.Camera2Enumerator;
 import org.webrtc.EglBase;
 import org.webrtc.IceCandidate;
@@ -126,9 +123,9 @@ public class CallActivity extends Activity
   private static final int LOCAL_HEIGHT_CONNECTED2 = 25;
   // Remote video screen position
   private static final int REMOTE_X = 0;
-  //private static final int REMOTE_X2 = 0;
-  private static final int REMOTE_Y = 30;
-  //private static final int REMOTE_Y2 = 50;
+  private static final int REMOTE_X2 = 0;
+  private static final int REMOTE_Y = 0;
+  private static final int REMOTE_Y2 = 50;
   private static final int REMOTE_WIDTH = 100;
   private static final int REMOTE_HEIGHT = 50;
   private PeerConnectionClient peerConnectionClient = null;
@@ -192,11 +189,11 @@ public class CallActivity extends Activity
     localRender = (SurfaceViewRenderer) findViewById(R.id.local_video_view);
     localRender2 = (SurfaceViewRenderer) findViewById(R.id.local_video_view2);
     remoteRender = (SurfaceViewRenderer) findViewById(R.id.remote_video_view);
-    //remoteRender2 = (SurfaceViewRenderer) findViewById(R.id.remote_video_view2);
+    remoteRender2 = (SurfaceViewRenderer) findViewById(R.id.remote_video_view2);
     localRenderLayout = (PercentFrameLayout) findViewById(R.id.local_video_layout);
     localRenderLayout2 = (PercentFrameLayout) findViewById(R.id.local_video_layout2);
     remoteRenderLayout = (PercentFrameLayout) findViewById(R.id.remote_video_layout);
-    //remoteRenderLayout2 = (PercentFrameLayout) findViewById(R.id.remote_video_layout2);
+    remoteRenderLayout2 = (PercentFrameLayout) findViewById(R.id.remote_video_layout2);
     callFragment = new CallFragment();
     hudFragment = new HudFragment();
 
@@ -211,14 +208,14 @@ public class CallActivity extends Activity
     localRender.setOnClickListener(listener);
     localRender2.setOnClickListener(listener);
     remoteRender.setOnClickListener(listener);
-    //remoteRender2.setOnClickListener(listener);
+    remoteRender2.setOnClickListener(listener);
 
     // Create video renderers.
     rootEglBase = EglBase.create();
     localRender.init(rootEglBase.getEglBaseContext(), null);
     localRender2.init(rootEglBase.getEglBaseContext(),null);
     remoteRender.init(rootEglBase.getEglBaseContext(), null);
-    //remoteRender2.init(rootEglBase.getEglBaseContext(),null);
+    remoteRender2.init(rootEglBase.getEglBaseContext(),null);
     localRender.setZOrderMediaOverlay(true);
     localRender2.setZOrderMediaOverlay(true);
     updateVideoView();
@@ -377,7 +374,7 @@ public class CallActivity extends Activity
   public void onCameraDual() {
     if (peerConnectionClient != null) {
       peerConnectionClient.createPeerConnection(rootEglBase.getEglBaseContext(),
-              localRender, localRender2,remoteRender, signalingParameters);
+              localRender, localRender2,remoteRender, remoteRender2, signalingParameters);
       //peerConnectionClient.createPeerConnection(rootEglBase.getEglBaseContext(),
       //        localRender2, remoteRender, signalingParameters);
     }
@@ -426,11 +423,11 @@ public class CallActivity extends Activity
 
   private void updateVideoView() {
     remoteRenderLayout.setPosition(REMOTE_X, REMOTE_Y, REMOTE_WIDTH, REMOTE_HEIGHT);
-    //remoteRenderLayout2.setPosition(REMOTE_X2,REMOTE_Y2,REMOTE_WIDTH,REMOTE_HEIGHT);
+    remoteRenderLayout2.setPosition(REMOTE_X2,REMOTE_Y2,REMOTE_WIDTH,REMOTE_HEIGHT);
     remoteRender.setScalingType(scalingType);
-    //remoteRender2.setScalingType(scalingType);
+    remoteRender2.setScalingType(scalingType);
     remoteRender.setMirror(false);
-    //remoteRender2.setMirror(false);
+    remoteRender2.setMirror(false);
 
     if (iceConnected) {
       localRenderLayout.setPosition(
@@ -445,9 +442,9 @@ public class CallActivity extends Activity
       localRenderLayout.setPosition(
               LOCAL_X_CONNECTING, LOCAL_Y_CONNECTING, LOCAL_WIDTH_CONNECTING, LOCAL_HEIGHT_CONNECTING);
       localRender.setScalingType(scalingType);
-      //localRenderLayout2.setPosition(
-      //        LOCAL_X_CONNECTING, LOCAL_Y_CONNECTING, LOCAL_WIDTH_CONNECTING, LOCAL_HEIGHT_CONNECTING);
-      //localRender2.setScalingType(scalingType);
+      localRenderLayout2.setPosition(
+              LOCAL_X_CONNECTING, LOCAL_Y_CONNECTING, LOCAL_WIDTH_CONNECTING, LOCAL_HEIGHT_CONNECTING);
+      localRender2.setScalingType(scalingType);
     }
     localRender.setMirror(true);
     localRender2.setMirror(true);
@@ -455,7 +452,7 @@ public class CallActivity extends Activity
     localRender.requestLayout();
     localRender2.requestLayout();
     remoteRender.requestLayout();
-    //remoteRender2.requestLayout();
+    remoteRender2.requestLayout();
   }
 
   private void startCall() {
@@ -529,10 +526,10 @@ public class CallActivity extends Activity
       remoteRender.release();
       remoteRender = null;
     }
-    //if (remoteRender2 != null) {
-    //  remoteRender2.release();
-    //  remoteRender2 = null;
-    //}
+    if (remoteRender2 != null) {
+      remoteRender2.release();
+      remoteRender2 = null;
+    }
     if (audioManager != null) {
       audioManager.close();
       audioManager = null;
@@ -595,7 +592,7 @@ public class CallActivity extends Activity
     signalingParameters = params;
     logAndToast("Creating peer connection, delay=" + delta + "ms");
     peerConnectionClient.createPeerConnection(rootEglBase.getEglBaseContext(),
-            localRender, localRender2,remoteRender, signalingParameters);
+            localRender, localRender2,remoteRender, remoteRender2, signalingParameters);
     //peerConnectionClient.createPeerConnection(rootEglBase.getEglBaseContext(),
     //    localRender2, remoteRender, signalingParameters);
     if (signalingParameters.initiator) {
