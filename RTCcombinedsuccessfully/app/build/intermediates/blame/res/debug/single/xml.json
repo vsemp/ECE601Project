@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/exploded-aar/AmazonCognitoYourUserPoolsDemocombined/mylibrary/unspecified/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/RTCcombinedsuccessfully/mylibrary/unspecified/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcompleted/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcompleted/app/build/intermediates/exploded-aar/RTCcompleted/mylibrary/unspecified/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/exploded-aar/AmazonCognitoYourUserPoolsDemo/mylibrary/unspecified/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/exploded-aar/RTCcombinedbutton/mylibrary/unspecified/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/RTCcombinedbutton/mylibrary/unspecified/res/xml/preferences.xml"
+    }
+]

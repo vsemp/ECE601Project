@@ -1,0 +1,260 @@
+[
+    {
+        "outputFile": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 54,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/AmazonCognitoYourUserPoolsDemocombined/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 54,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/RTCversion/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 54,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 54,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 54,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcompleted/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcompleted/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 63,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcompleted/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 54,
+                        "endOffset": 169
+                    }
+                }
+            }
+        ]
+    }
+]

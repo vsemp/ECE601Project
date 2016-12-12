@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/exploded-aar/RTCcombinedsuccessfully/mylibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0b1c68aac2c82b01fe3cf0c8c6621de18131692d">
+        <dex dex="/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedsuccessfully/app/build/intermediates/pre-dexed/debug/RTCcombinedsuccessfully-mylibrary-unspecified_8e430de5833ab6f2148d888487874c51c27b7511.jar" />
+    </item>
+
+</items>

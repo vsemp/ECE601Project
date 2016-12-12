@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/disconnect.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/RTCcombinedbutton/mylibrary/unspecified/res/drawable-ldpi-v4/disconnect.png"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_action_full_screen.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/RTCcombinedbutton/mylibrary/unspecified/res/drawable-ldpi-v4/ic_action_full_screen.png"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/RTCcombinedbutton/mylibrary/unspecified/res/drawable-ldpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_loopback_call.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/RTCcombinedbutton/mylibrary/unspecified/res/drawable-ldpi-v4/ic_loopback_call.png"
+    },
+    {
+        "merged": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_action_return_from_full_screen.png",
+        "source": "/Users/xogoss/Documents/boston/EC601/project/videochat/RTCcombinedbutton/app/build/intermediates/exploded-aar/RTCcombinedbutton/mylibrary/unspecified/res/drawable-ldpi-v4/ic_action_return_from_full_screen.png"
+    }
+]
