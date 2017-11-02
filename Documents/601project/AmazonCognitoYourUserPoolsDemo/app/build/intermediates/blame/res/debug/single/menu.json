@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/menu/connect_menu.xml",
+        "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/exploded-aar/AmazonCognitoYourUserPoolsDemo/mylibrary/unspecified/res/menu/connect_menu.xml"
+    },
+    {
+        "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/menu/activity_user_menu.xml",
+        "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/src/main/res/menu/activity_user_menu.xml"
+    },
+    {
+        "merged": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/build/intermediates/res/merged/debug/menu/activity_user_drawer.xml",
+        "source": "/Users/sijiazhang/Documents/601project/AmazonCognitoYourUserPoolsDemo/app/src/main/res/menu/activity_user_drawer.xml"
+    }
+]
