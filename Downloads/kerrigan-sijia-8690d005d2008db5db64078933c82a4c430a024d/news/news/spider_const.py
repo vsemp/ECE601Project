@@ -1,0 +1,55 @@
+# -*- coding: utf-8 -*-
+DATA_SOURCE_TYPE_DEFAULT = 0
+DATA_SOURCE_TYPE_WEIXIN = 1
+DATA_SOURCE_TYPE_NEWS = 2
+DATA_SOURCE_TYPE_TOUTIAO = 3
+DATA_SOURCE_TYPE_VIDEO = 4
+DATA_SOURCE_TYPE_WEIBO = 5
+DATA_SOURCE_TYPE_QUIZ = 6
+DATA_SOURCE_TYPE_COOTEK = 9
+
+# locales
+LOCALE_GLOBAL_ENGLISH = "en_ZZ"
+# region-asia
+LOCALE_INDIA_ENGLISH = "en_IN"
+LOCALE_INDIA_HINDI = "hi_IN"
+LOCALE_THAILAND_THAI = "th_TH"
+LOCALE_ARABIA_ARABIC = "ar_AR"
+LOCALE_INDONESIA_INDONESIAN = "in_ID"
+LOCALE_VIETNAM_VIETNAMESE = "vi_VN"
+LOCALE_JAPAN_JAPANESE = "ja_JP"
+LOCALE_KOREA_KOREAN = "ko_KR"
+
+
+# region-america
+LOCALE_USA_ENGLISH = "en_US"
+LOCALE_BRAZIL_PORTUGUES = "pt_BR"
+LOCALE_MEXICO_SPAISH = "es_MX"
+
+# region-europe
+LOCALE_FRANCE_FRENCH = "fr_FR"
+
+# regions
+REGION_CHINA = 'china'
+REGION_ASIA = 'asia'
+REGION_AMERICA = 'america'
+REGION_EUROPE = 'europe'
+REGION_GCT = 'gct'
+
+# kafka
+KAFKA_TOPIC_GENERATOR = 'gct_feedsgenerator'
+
+# process mode
+PROCESS_MODE_TEST = 'test_mode'
+PROCESS_MODE_SIM = 'sim_mode'
+PROCESS_MODE_UPDATE = 'update_mode'
+
+# video display type
+# 暂时抛弃small_video
+VIDEO_TYPE_SMALL_VIDEO = 'short_video'
+VIDEO_TYPE_SHORT_VIDEO = 'short_video'
+VIDEO_TYPE_GIF_VIDEO = 'gif_video'
+
+# content input type
+INPUT_TYPE_UGC = 'ugc'
+INPUT_TYPE_CRAWL = 'crawl'

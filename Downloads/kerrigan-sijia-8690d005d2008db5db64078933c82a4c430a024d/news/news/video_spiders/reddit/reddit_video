@@ -1,0 +1,104 @@
+import json
+import re
+from urllib import urlencode
+
+from pydispatch import dispatcher
+from scrapy import signals, Request
+from scrapy.spiders import BaseSpider
+
+
+class RedditVideoSpider(BaseSpider):
+    name = 'reddit_video'
+    channel_list = [{'url': 'https://www.reddit.com/r/funny/', 'tags': ['funny']}]
+    hd_page = {'pragma': 'no-cache',
+               'User-Agent': '',
+               'cache-control': 'no-cache'}
+    after_token = ''
+    sort_type = 'hot'
+
+    reddit_channel_params = {
+        'after': after_token,
+        'sort': sort_type
+    }
+    browse_times = 0
+    browse_limit = 3
+
+    def __init__(self, *a, **kw):
+        super( RedditVideoSpider, self).__init__(*a, **kw)
+        dispatcher.connect(self.spider_idle, signals.spider_idle)
+
+    def spider_idle(self):
+        if self.channel_list:
+            for rq in self.start_requests():
+                self.browse_times = 0
+                self.reddit_channel_params['after'] = ""
+                self.crawler.engine.crawl(rq, self)
+
+    def start_request(self):
+        channel_dict = self.channel_list.pop(0)
+        raw = dict()
+        raw['in_link'] = [channel_dict['url']]
+        raw['tag'] = channel_dict['tags']
+        raw['channel_name'] = re.findall('https://www.reddit.com/r/(.*?)/',channel_dict['url'])[0]
+        targer_url = 'https://gateway.reddit.com/desktopapi/v1/subreddits/' + raw['channel_name'] +'?' +  urlencode(
+            self.reddit_channel_params)
+        yield Request(
+            targer_url,
+            meta = raw,
+            dont_filter=True,
+            callback=self.parse_list
+        )
+
+    def parse_list(self,response):
+        raw = dict()
+        raw.update(response.meta)
+        t_json = json.loads(response.text)
+        after =t_json['token']
+        raw['publisher_id'] = t_json['subreddits'].keys()[0]
+        raw['subscriber_count'] = t_json['subreddits'][raw['publisher_id']]['subscribers']
+        raw['publisher_icon'] = [t_json['subreddits'][raw['publisher_id']]['icon']['url']]
+        raw['raw_tags'] = t_json['subredditAboutInfo'][raw['publisher_id']]['advertiserCategory']
+        for key in t_json['posts'].key():
+            item = t_json['post'][key]
+            if item['isLocked'] is True:
+                continue
+            if 'media' not in item or item['media'] is None:
+                print 'not media'
+                continue
+            media_type =item['media']['type']
+            if media_type not in ['video', 'image', 'gifvideo']:
+                print 'not video image or gifvideo,which is %s' % media_type
+                continue
+            raw['title'] = item['title']
+            raw['publish_time'] = item['created'] / 1000
+            raw['source_url'] = item['permalink']
+            raw['domain'] = item['domain']
+            raw['publisher'] = item['author']
+            if media_type=='video' and item['media']['isGif'] == False:
+                raw['video'] = item['media']['scrubberThumbSource'].replace('DASH_600_K', 'DASH_2_4_M')
+                raw['video_height'] = item['media']['height']
+                raw['video_width'] = item['media']['width']
+                raw['thumbnails'] = [item['media']['posterUrl']]
+                raw['doc_id'] = key
+                raw['duration'] = -1
+                self.parse_raw(raw)
+
+        self.browse_times += 1
+        if self.browse_times >= self.browse_limit:
+            self.logger.info('browse_times is %s ' % self.browse_times)
+            return
+
+        self.reddit_channel_params['after'] = after
+        target_url = 'https://gateway.reddit.com/desktopapi/v1/subreddits/' + raw['channel_name'] + '?' + urlencode(
+            self.reddit_channel_params)
+        print target_url
+        yield Request(
+            target_url,
+            meta=raw,
+            headers=self.hd_page,
+            dont_filter=True,
+            callback=self.parse_list
+        )
+
+
+
