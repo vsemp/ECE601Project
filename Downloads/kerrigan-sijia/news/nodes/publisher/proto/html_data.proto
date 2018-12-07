@@ -1,0 +1,26 @@
+package proto;
+option java_package = "com.cootek.data.proto"; // 目录名
+option java_outer_classname="HtmlDataType"; // 文件名HtmlDataType.java
+
+enum Type {
+        article = 1;                        //TUWEN
+        album = 2;                          //u'tuji' in tags
+        video = 3;
+        tencent_open = 4;
+        href_article = 5;
+        fall_video = 6;
+}
+
+message NewsHtmlData {
+    required Type hint_type = 1;            //only works if type == article
+    optional string title = 2;              //title of html
+    optional string share_icon = 3;         
+    optional string published = 4;          //pubtime of the article
+    optional string source_url = 5;
+    optional string subtitle = 6;
+    optional string content = 7;
+    optional string thumbnail = 8;          //only for video
+    optional string video_type = 9;         //only for video
+    optional string target_url = 10;        //only for video
+    optional string image_zoom = 11;
+}
